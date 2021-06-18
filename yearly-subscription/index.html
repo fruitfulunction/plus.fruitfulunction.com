@@ -1,0 +1,130 @@
+<!-- Copyright 2021 Fruitfulunction -->
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8">
+<title>Fruitfulunction Plus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/realandychang/realandychang.us@main/css/andyus/v1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/realandychang/realandychang.us@main/css/andyus/v1-extra.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+<meta name="description" itemprop="description" content="Welcome to Fruitfulunction Plus!" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!--Return to top smooth-->
+ <style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+ <div class="ac-container ac-padding-12 ac-white ac-center ac-display-container ac-animate-opacity">
+ <h1><a href="https://plus.fruitfulunction.com/" style=" text-decoration:none" target="_self">Fruitfulunction+ Checkout</a></h1>
+
+<!-- Purchase -->
+<div class="ac-container ac-padding-64 ac-white ac-center ac-display-container ac-animate-opacity" id="introduction">
+<h3>You are purchasing <b>Fruitfulunction+ Yearly Subscription</b></h3>
+<div id="paypal-button-container-P-3AJ36584L54915135MDGOCGA"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=Ae-KNMIfLhe0OpgcBkv8yaCnSoNlf_TWOR5wci5zPzLfCY-TXxt6ZZOBx6mBVyxuh0KicWH1Nunsayco&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script> 
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-3AJ36584L54915135MDGOCGA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-3AJ36584L54915135MDGOCGA'); // Renders the PayPal button
+</script>
+</div>
+
+<!--Features-->
+<div class="ac-container ac-padding-64 ac-black ac-center ac-display-container ac-animate-opacity" id="features">
+<h1><b>Features</b></h1>
+<p>After you purchased Fruitfulunction Plus, you will receive the following services provided by us:</p>
+<br>
+<p><b>Private Email Forwarding Service</b></p>
+<p><i>(This service will protect your privacy, and make your online browsing more secure. If you noticed, nearly every website ask for your email address to create an account or more. This might lead to your email address leak, and with our service it will prevent it.</i></p>
+<p><i>After you started to use our email forwarding, you will receive a specialized email address with 5 digit letter and number combination. We offer @fruityga.me as the ending, which is the most easy to memorize ending. If you would like to choose a different ending, please send us the request through Discord or <a href="mailto:andy@fruitfulunction.com" target="_blank" class="d"><b>Email</b>.)</a></i></p>
+<br>
+<p><b>Exclusive Events</b></p>
+<p><i>(This service will give you special access to events that is only available to Fruitfulunction Plus members. For example, we will host movie night event, online game combat, talent show, and more that you can participate.)</i></p>
+<br>
+<p><b>Early access</b></p>
+<p><i>(This service will allow you to access web pages or features that is not yet available to the public, and you can give us feedback on how we could improve. With Early Access, you will even be able to access them before the public beta version. We take your opinion seriously, and we believe with all the opinions, we could make a website that satisfies everyone.)</i></p>
+<br>
+<p><b>Purchase Discounts</b></p>
+<p><i>(This service will lower the price of your purchase when purchasing Fruitfulunction Products, such as personal talk time purchase. You will be receiving a 10-50% off on your purchase each time as a Fruitfulunction Plus subscriber. Personal talk time purchase will be available soon.)</i></p>
+<br>
+<p><b>Personalized Website Build</b></p>
+<p><i>(This service will allow you to build your own website with Fruitfulunction Plus. Our team member will be building the website for you by following the requirements you mentioned. You can always reach out to your designated agent that you selected after purchase, and do live time annotations following your requirements.)</i></p>
+</div>
+
+<!-- Purchase Guarantees -->
+<div class="ac-container ac-padding-64 ac-white ac-center ac-display-container ac-animate-opacity" id="guarantees">
+<h1><b>Guarantees</b></h1>
+<p>After your purchase, you are allowed to select an agent through confirmation email. After your selection, you will be able to reach out to your agent at any time.</p>
+</div>
+
+
+<!--Link Config-->
+<style>
+a.d:link {
+  text-decoration: none;
+}
+
+a.d:visited {
+  text-decoration: none;
+}
+
+a.d:hover {
+  text-decoration: underline;
+  color: #0083FF;
+}
+
+a.d:active {
+  text-decoration: underline;
+  color:#0083FF;
+}
+
+a.d1:link {
+  text-decoration:none;
+}
+
+a.d1:visited {
+  text-decoration: none;
+}
+
+a.d1:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a.d1:active {
+  text-decoration: underline;
+  color:white;
+}
+
+p.explain {
+	color:#808080
+    }
+    
+h4.ac-text-footer {
+	display:flex;
+    }
+    
+</style>
+
+</body>
+</html>
